@@ -1,0 +1,90 @@
+main {
+    height: 100%;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin-top: 20px;
+    background-color:#F8F9FA;
+}
+
+footer .info {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* registro de notas */
+.grades-table td,
+.grades-table th {
+    text-align: start;
+}
+
+.status-ok {
+    color: rgb(12, 179, 12);
+}
+
+.status-not-started {
+    color: red;
+}
+
+.form-control {
+    width: 90px;
+}
+
+/* registro de frequencia */
+.attendance-table td {
+    text-align: center;
+}
+
+.present {
+    color: green;
+}
+
+.absent {
+    color: red;
+}
+
+/* registro de frequencia e notas */
+.calendar-day {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.confirmed {
+    background-color: rgb(53, 53, 218);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.not-confirmed {
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* calendario de avaliacoes */
+.warning {
+    background-color: #ffefc1;
+    padding: 10px;
+    border-left: 5px solid #f1c40f;
+}
+
+.evaluation-table td,
+.evaluation-table th {
+    text-align: center;
+}
+
+.status-ok {
+    color: green;
+}
+
+.status-not-started {
+    color: red;
+}

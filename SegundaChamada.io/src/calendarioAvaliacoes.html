@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário de Avaliações</title>
+    <link rel="stylesheet" href="../src/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container mt-5 min-vh-100">
+        <h3>Avaliações da Classe por Nome</h3>
+        <p><strong>Ano/Semestre:</strong> 2024/1</p>
+        <p><strong>Curso:</strong> 1378 - NEI - DA ESCOLA POLITÉCNICA</p>
+        <p><strong>Disciplina:</strong> 22834 - Programação Web</p>
+        <p><strong>Turno:</strong> 3 - Noturno</p>
+        <p><strong>Alunos Ativos:</strong> 34</p>
+        <p><strong>Cálculo da Média:</strong> MF=(M1+M2+M3)/3</p>
+
+        <button style="background-color: blue; border: none; color: white; padding: 5px;">Atualizar</button>
+
+        <div style="background-color: rgba(230, 208, 146, 0.397);padding: 5px;">
+            <strong>Atenção:</strong>
+            <li style="color: red;">Caso o aluno tire ZERO na avaliação, a nota só será considerada digitada após
+                estar marcada como conferida.
+            </li>
+        </div>
+
+        <table class="table table-bordered evaluation-table mt-3  min-vh-100">
+            <thead class="thead-light">
+                <tr>
+                    <th>Data</th>
+                    <th>Média</th>
+                    <th>Avaliação</th>
+                    <th>Peso</th>
+                    <th>Tipo</th>
+                    <th>Digitação</th>
+                    <th>Conferência</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>19/04/2024</td>
+                    <td>MÉDIA PARCIAL 1</td>
+                    <td>Trabalho 1</td>
+                    <td>4,00</td>
+                    <td>Desenv. Sistema Computacional</td>
+                    <td class="status-ok">OK</td>
+                    <td class="status-ok">OK</td>
+                </tr>
+                <tr>
+                    <td>19/04/2024</td>
+                    <td>MÉDIA PARCIAL 1</td>
+                    <td>Prova 1</td>
+                    <td>6,00</td>
+                    <td>Desenv. Sistema Computacional</td>
+                    <td class="status-ok">OK</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>24/05/2024</td>
+                    <td>MÉDIA PARCIAL 2</td>
+                    <td>Trabalho 2</td>
+                    <td>4,00</td>
+                    <td>Desenv. Sistema Computacional</td>
+                    <td class="status-ok">OK</td>
+                    <td class="status-ok">OK</td>
+                </tr>
+                <tr>
+                    <td>21/06/2024</td>
+                    <td>MÉDIA PARCIAL 3</td>
+                    <td>Prova 3</td>
+                    <td>3,00</td>
+                    <td>Desenv. Sistema Computacional</td>
+                    <td class="status-not-started">Não Iniciada</td>
+                    <td class="status-not-started">Não Iniciada</td>
+                </tr>
+                <tr>
+                    <td>28/06/2024</td>
+                    <td>MÉDIA PARCIAL 3</td>
+                    <td>Projeto de Extensão</td>
+                    <td>7,00</td>
+                    <td>Desenv. Sistema Computacional</td>
+                    <td class="status-not-started">Não Iniciada</td>
+                    <td class="status-not-started">Não Iniciada</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <div class="info">
+            <p>Acadêmico: Flavia Schnaider</p>
+            <p>Orientador: Jhonatan Alves</p>
+            <p>Disciplina: Programação Web</p>
+        </div>
+    </footer>
+</body>
+
+</html>
